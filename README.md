@@ -8,3 +8,8 @@ The game provides a Kalah board and a number of seeds or counters. The board has
 4. If the last sown seed lands in an empty house owned by the player, and the opposite house contains seeds, both the last seed and the opposite seeds are captured and placed into the player's store.
 5. If the last sown seed lands in the player's store, the player gets an additional move. There is no limit on the number of moves a player can make in their turn.
 6. When one player no longer has any seeds in any of their houses, the game ends. The other player moves all remaining seeds to their store, and the player with the most seeds in their store wins.
+
+There are three kinds of players:
+1. Human Player
+2. Bad Computer Player: the player that randomly decides the moves
+3. Smart Computer Player: the player that decides the best moves based on the algorithm
